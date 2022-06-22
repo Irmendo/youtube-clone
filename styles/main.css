@@ -1,0 +1,11 @@
+p {
+    font-family: Roboto, Arial; /*Запасной шрифт*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    padding: 80px 20px 2000px 100px;
+    background-color: rgb(249, 249, 249);
+    font-family: Roboto, Arial;
+}

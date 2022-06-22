@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube clone</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/header.css">
+<link rel="stylesheet" href="styles/sidebar.css">
+<link rel="stylesheet" href="styles/video.css">
+
+</head>
+
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="icons/youtube-logo.svg">
+    </div>
+
+    <div class="middle-section">
+      <input type="text" placeholder="Search" class="search-bar">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Voice search</div>
+      </button>
+    </div>
+
+    <div class="right-section">
+      <img src="icons/upload.svg" class="upload-icon">
+      <img src="icons/youtube-apps.svg" class="youtube-apps-icon">
+      <div class="notifications">
+        <img src="icons/notifications.svg" class="notification-icon">
+        <div class="notification-count">5</div>
+      </div>
+      <img src="profile-picture/elektro.png" class="user-picture">
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="icons/library.svg">
+      <div>Library</div>
+    </div>
+  </div>
+
+  <main>
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="picture-row">
+          <a href="https://www.youtube.com/watch?v=f5NRP01G0js&ab_channel=%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><img src="pictures/quovaldis.jpg" class="video-title"></a>
+          <div class="video-time">
+            5:08
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><img src="profile-picture/elektro.png" class="profile-picture"></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=f5NRP01G0js&ab_channel=%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-name">Электрофорез -- Quo Vadis? (Synthpop, Gothic, Darkwave)</p></a>
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-author">Группа Электрофорез</p></a>
+            <p class="video-stats">326 тыс. просмотров &#183; 2мес. назад </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="picture-row">
+          <a href="https://www.youtube.com/watch?v=hnaZ83UD6Z0&ab_channel=BoyHarsher"><img src="pictures/autonomy.jpg" class="video-title"></a>
+          <div class="video-time">
+            3:12
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/BoyHarsher"><img src="profile-picture/boyharsherjfif.jfif" class="profile-picture"></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=hnaZ83UD6Z0&ab_channel=BoyHarsher"><p class="video-name">Boy Harsher -- Autonomy (Synthpop)</p></a>
+            <a href="https://www.youtube.com/c/BoyHarsher"><p class="video-author">Boy Harsher</p></a>
+            <p class="video-stats">326 тыс. просмотров &#183; 2мес. назад </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="picture-row">
+          <img src="pictures/cousicusa.jpg" class="video-title">
+          <div class="video-time">
+            4:53
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><img src="profile-picture/elektro.png" class="profile-picture"></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=b_MvjWf1ndk&ab_channel=%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-name">Электрофорез -- cousi cusa (Synthpop, Gothic, Darkwave)</p></a>
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-author">Группа Электрофорез</p></a>
+            <p class="video-stats">326 тыс. просмотров &#183; 2мес. назад </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="picture-row">
+          <a href="https://www.youtube.com/watch?v=KrXxgIyadCI&ab_channel=%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><img src="pictures/deadinside.jpg" class="video-title"></a>
+          <div class="video-time">
+            2:23
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><img src="profile-picture/elektro.png" class="profile-picture"></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=KrXxgIyadCI&ab_channel=%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-name">Электрофорез --Мёртв внутри? (Synthpop, Gothic, Darkwave)</p></a>
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-author">Группа Электрофорез</p></a>
+            <p class="video-stats">326 тыс. просмотров &#183; 2мес. назад </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="picture-row">
+          <a href="https://www.youtube.com/watch?v=IU-rix2SsL8&ab_channel=DreamstateLogic"><img src="pictures/dreamstate.jpg" class="video-title"></a>
+          <div class="video-time">
+            6:13
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/dreamstatelogic"><img src="profile-picture/Dreamstate.jpg" class="profile-picture"></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=IU-rix2SsL8&ab_channel=DreamstateLogic"><p class="video-name">Dreamstate -- Relax</p></a>
+            <a href="https://www.youtube.com/c/dreamstatelogic"><p class="video-author">Dreamstate</p></a>
+            <p class="video-stats">326 тыс. просмотров &#183; 2мес. назад </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="picture-row">
+          <a href="https://www.youtube.com/watch?v=0ueswTTZ61g&ab_channel=%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><img src="pictures/late.jpg" class="video-title"></a>
+          <div class="video-time">
+            4:02
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><img src="profile-picture/elektro.png" class="profile-picture"></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=0ueswTTZ61g&ab_channel=%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-name">Электрофорез -- Опоздал (Synthpop, Gothic, Darkwave)</p></a>
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-author">Группа Электрофорез</p></a>
+            <p class="video-stats">326 тыс. просмотров &#183; 2мес. назад </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="picture-row">
+          <a href="https://www.youtube.com/watch?v=cryYrzg-hjg&ab_channel=%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><img src="pictures/russianprincess.jpg" class="video-title"></a>
+          <div class="video-time">
+            5:02
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><img src="profile-picture/elektro.png" class="profile-picture"></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=cryYrzg-hjg&ab_channel=%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-name">Электрофорез -- Русская принцесса (Synthpop, Gothic, Darkwave)</p></a>
+            <a href="https://www.youtube.com/c/%D0%93%D1%80%D1%83%D0%BF%D0%BF%D0%B0%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%84%D0%BE%D1%80%D0%B5%D0%B7"><p class="video-author">Группа Электрофорез</p></a>
+            <p class="video-stats">326 тыс. просмотров &#183; 2мес. назад </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="picture-row">
+          <a href="https://www.youtube.com/watch?v=FUdteCBRX9c&ab_channel=Shortparis"><img src="pictures/scaru.jpg" class="video-title"></a>
+          <div class="video-time">
+            3:44
+          </div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/channel/UC1cjNl1C3r4wLlp--YiJ1Xg"></a><img src="profile-picture/shortparisjpg.jpg" class="profile-picture"></a>
+          </div>
+          <div class="video-info">
+            <a href="https://www.youtube.com/watch?v=FUdteCBRX9c&ab_channel=Shortparis"><p class="video-name">Shortparis -- Страшно (Synthpop, Gothic, Darkwave)</p></a>
+            <a href="https://www.youtube.com/channel/UC1cjNl1C3r4wLlp--YiJ1Xg"><p class="video-author">Shortparis</p></a>
+            <p class="video-stats">326 тыс. просмотров &#183; 2мес. назад </p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+
+    
+  
+</body>
+
+</html>
+
